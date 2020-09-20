@@ -11,22 +11,28 @@
         <h1>Where is my class?!😲😮😱😫</h1>
     </div>
 
-    <div class="js-webex">
+    <div class="js-class">
         <h2>Here they are~!🤗😆🥰😝</h2>
-        <form class="js-webexform webexform"> 
-            //플러스 버튼 누르면 폼 생기는 걸로 할지 고민
-            //+ - 평소엔 이 버튼 두개만 놓고 +누르면 폼 생겨서 추가, - 누르면 클래스 옆에 다 - 버튼 생겨서 삭제할 수 있게
-            <input type="text" placeholder="Class Name"/>
-            <input type="text" placeholder="Class URL or Meeting Number"/>
+        <!--플러스 버튼 누르면 폼 생기는 걸로 할지 고민-->
+        <!--  + - 평소엔 이 버튼 두개만 놓고 +누르면 폼 생겨서 추가, - 누르면 클래스 옆에 다 - 버튼 생겨서 삭제할 수 있게-->
+        <form class="js-classForm classForm"> 
+            <input class="js-className" type="text" placeholder="Class Name"/>
+            <input class="js-classAddress" type="text" placeholder="Class URL or Meeting Number"/>
+           <!--
+            <label><input class="classFlatform" type="radio" name = "flatForm" value="webex">Webex</label>
+            <label><input class="classFlatform" type="radio" name = "flatForm" value="zoom">Zooom</label>
+           -->
             <button type="submit">+</button>
         </form> 
+
         <ul class="js-classList">
-            
+
         </ul>
     </div>
     <div class="zoom">
 
     </div>
 
+    <script src="classList.js"></script>
 </body>
 </html>
