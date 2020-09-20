@@ -26,13 +26,13 @@ function saveClasses() {
 function paintClass(name, address) {
     const li = document.createElement("li");
     const delBtn = document.createElement("button");
-    const span = document.createElement("a");
+    const link = document.createElement("a");
     const newId = classes.length + 1;
     delBtn.innerText="delete";
     delBtn.addEventListener("click", deleteClass);
-    span.innerText=name;
-    span.setAttribute('href',address);
-    li.appendChild(span);
+    link.innerText="💕  "+name;
+    link.setAttribute('href',address);
+    li.appendChild(link);
     li.appendChild(delBtn);
     li.id = newId;
     classList.appendChild(li);
