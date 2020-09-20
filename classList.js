@@ -32,6 +32,7 @@ function paintClass(name, address) {
     delBtn.addEventListener("click", deleteClass);
     link.innerText="💕  "+name;
     link.setAttribute('href',address);
+    link.setAttribute('target','-blank');
     li.appendChild(link);
     li.appendChild(delBtn);
     li.id = newId;
