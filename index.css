@@ -4,7 +4,7 @@ body {
 
 .greetings {
     display: flex;
-    width:500px;
+    width:480px;
     padding: 0 20px 0 40px;
     border-radius: 30px;
     border-bottom-left-radius: 0px;
@@ -22,11 +22,11 @@ body {
 }
 .answer {
     display: flex;
-    width:520px;
+    width:500px;
     padding: 0 20px 0 40px;
     border-radius: 30px;
     border-bottom-right-radius: 0px;
-    margin: 0px 0px 50px 540px;
+    margin: 0px 0px 50px 555px;
     text-align: center;
     font-size: 15px;
     background-color: #1D4350;
